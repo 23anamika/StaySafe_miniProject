@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:background="@color/purple_200"
+   android:gravity="bottom"
+    android:paddingLeft="15dp"
+    android:paddingBottom="15dp"
+    >
+
+    <ImageView
+        android:id="@+id/navHeaderImage"
+        android:layout_width="115dp"
+        android:layout_height="115dp"
+        android:layout_marginBottom="15dp"
+        app:srcCompat="@drawable/guardian" />
+
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:text="Stay Safe" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome to this section"
+        android:textColor="@color/black"/>
+
+
+
+</LinearLayout>
